@@ -1,6 +1,6 @@
 {
     "name": "agent",
-    "password": "agent123",
+    "password": "SuperSamplePasswordChangeMePlease",
     "collection_access": {
       "inventory": {
         "airline": { "admin_channels": ["airlines"] },
@@ -8,6 +8,6 @@
       }
     },
     "admin_roles": [ "airline_agent" ],
-    "email": "agent@amadeus.ccom",
+    "email": "agent@acme-travel.ccom",
     "disabled": false
 }
