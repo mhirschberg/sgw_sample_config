@@ -1,0 +1,13 @@
+{
+    "name": "agent",
+    "password": "agent123",
+    "collection_access": {
+      "inventory": {
+        "airline": { "admin_channels": ["airlines"] },
+        "hotel": { "admin_channels": ["hotels"] }
+      }
+    },
+    "admin_roles": [ "airline_agent" ],
+    "email": "agent@amadeus.ccom",
+    "disabled": false
+}

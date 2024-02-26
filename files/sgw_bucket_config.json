@@ -1,0 +1,19 @@
+{
+  "name": "travel-sample",
+  "bucket": "travel-sample",
+  "scopes" : {
+    "inventory": {
+      "collections": {
+        "airline" : {
+            "sync": `function(doc, oldDoc, meta) { channel("airlines") }`,
+            "import_filter": `function(doc) { return doc.type == "airline" }`
+        },
+        "hotel" : {
+          "sync": `function(doc, oldDoc, meta) { channel("hotels") }`,
+          "import_filter": `function(doc) { return doc.type == "hotel" }`
+        }
+      }
+    }
+  },
+  "num_index_replicas": 0
+}
