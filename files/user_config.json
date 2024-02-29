@@ -1,6 +1,6 @@
 {
     "name": "agent",
-    "password": "SuperSamplePasswordChangeMePlease",
+    "password": "###",
     "collection_access": {
       "inventory": {
         "airline": { "admin_channels": ["airlines"] },
