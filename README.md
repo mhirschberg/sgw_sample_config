@@ -29,7 +29,7 @@ The configuration is fairly simple:
 * Click on `Buckets` on the left side and then `load sample buckets` on the right side
 * Select `travel-sample` and click `Load sample data`
 * On the left side, click `Security` and then `Add user` on the top right
-* Give the user a meaningful name - I use `SG_account` - and a password, select the role `Sync Gateway` for the bucket `travel-sample` under `Mobile` and finish by clicking the `Add User` button
+* This user will connect from the SyncGateway, so choose a meaningful name - I use `SG_account` - and a password, select the role `Sync Gateway` for the bucket `travel-sample` under `Mobile` and finish by clicking the `Add User` button
 * Now switch to your working directory and edit `sgw_bootstrap.json` file, you need to replace the name and the password with the ones you just created
 
 ## Install and configure SyncGateway
