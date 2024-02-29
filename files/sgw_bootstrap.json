@@ -2,7 +2,7 @@
   "bootstrap": {
     "server": "couchbase://cb-server",
     "username": "SG_account",
-    "password": "SuperSecretChangeMePassword",
+    "password": "###",
     "use_tls_server": false
   },
   "api": {
