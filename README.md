@@ -5,7 +5,7 @@ It has been verified on both MacOS and Linux. Windows users are on their own.
 
 Here's what you need:
 * A docker engine on your local machine, to run both Couchbase Server and Couchbase SyncGateway
-* [cblite tool](https://github.com/couchbaselabs/couchbase-mobile-tools/releases) to work with a local database. Please download the binaries for your OS and set the executable flag on `bin/cblite` after extracting.
+* [cblite tool](https://github.com/couchbaselabs/couchbase-mobile-tools/releases) to work with a local database. Under `Assets` please download the binaries for your OS and set the executable flag on `bin/cblite` after extracting.
 * Clone this repository and `cd sgw_sample_config/files` - that will be your working directory 
 * Create a new docker network, for instance `docker network create -d bridge sg_workshop`
 * We're going to use `cb-server` as a name for our Couchbase Server, please edit your `hosts` file and add `cb-server` to the line resolving `127.0.0.1`
